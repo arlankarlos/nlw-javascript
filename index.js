@@ -29,3 +29,20 @@ function criarMeta2() {
     console.log('Criando meta');
 }
 criarMeta2();
+
+let meta2 = {
+    value: 'Aprender React',
+    checked: true,
+}
+
+let metass = [
+    meta2,
+    {
+        value: 'Aprender Redux',
+        checked: true,
+    }
+]
+
+console.log(metass[0].value);
+console.log(metass[1].value);
+console.log(meta2.value);
