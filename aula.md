@@ -21,3 +21,32 @@ Coletar dados
 Processar os dados (manipular, alterar etc)  
 Apresentar os dados
 
+
+## Escopo de variáveis
+- [x] Variáveis globais e locais  
+- [x] Constantes
+
+## Tipos de dados
+- [x] Strings (texto): "" ''  
+- [x] Numbers: 2 1.4  
+- [x] Boolean  
+
+# Operadores
+- [x] Operadores de atribuição de valor
+- [x] Operador de contatenação de strings
+
+## Estrutura de dados
+
+### Arrays:
+
+- [x] Uma lista que contém qualquer tipo de dado
+
+### Objetos:
+- [x] Atributos e métodos  
+- [x] Criação e manipulação de objetos  
+- [x] Acesso a propriedades de objetos  
+
+### Functions
+- [x] Criar
+- [x] Executar
+- [x] Arrow Function / Named Function
