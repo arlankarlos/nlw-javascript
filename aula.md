@@ -32,8 +32,9 @@ Apresentar os dados
 - [x] Boolean  
 
 # Operadores
-- [x] Operadores de atribuição de valor
-- [x] Operador de contatenação de strings
+- [x] Operadores de atribuição de valor: =
+- [x] Operador de contatenação de strings: +
+- [x] Operadores de comparação: == != > < >= <=
 
 ## Estrutura de dados
 
@@ -56,3 +57,11 @@ Apresentar os dados
 
 # Condicionais
 - [x] switch
+- [x] if/else
+
+## Módulos em NOde.js
+- [x] Importação de módulos (inquirer, CommonJS)
+- [x] Biblioteca 'inquirer' para criar prompts interativos
+
+## Programação assíncrona e promises
+- [x] Uso de funções assíncronas (async/await)
