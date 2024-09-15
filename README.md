@@ -1,6 +1,6 @@
 # NLW - JavaSript - Trilha Iniciante
 
-Projeto iniciante JavaScript - gerenciador de metas via terminal todo em JS.
+Projeto trilah-iniciante JavaScript - gerenciador de metas via terminal todo em JS.
 
 ### Visão
 
