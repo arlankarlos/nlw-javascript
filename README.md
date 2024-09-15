@@ -16,7 +16,7 @@ Fiz a trilha em 2 dias, fiquei sabendo do progreama já estava no último dia 12
 
 ### Agradecimento
 
-Agradecimento especial para [RocketSeat](https://www.rocketseat.com.br/) que proporcionou o treinamento [nlw-pocketJAVASCRIPT](https://www.rocketseat.com.br/eventos/nlw).
+Agradecimento especial para [RocketSeat](https://www.rocketseat.com.br/)<base target="_blank"> que proporcionou o treinamento [nlw-pocket-JAVASCRIPT](https://www.rocketseat.com.br/eventos/nlw)<base target="_blank">.
 
 ### Tecnologia
 
