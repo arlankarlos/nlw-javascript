@@ -1,4 +1,4 @@
-## Linguagem de programação
+# Linguagem de programação
 
 Maneira de dar instrução ao computador.
 Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para resolver problemas.
@@ -15,54 +15,63 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 - Controle de fluxo (if/else)
 - Estrutura de repetição (for, while)
 
-# Fases da resolução de um problema
+## Fases da resolução de um problema
 
-Coletar dados  
-Processar os dados (manipular, alterar etc)  
+Coletar dados
+Processar os dados (manipular, alterar etc)
 Apresentar os dados
 
-
 ## Escopo de variáveis
-- [x] Variáveis globais e locais  
+
+- [x] Variáveis globais e locais
 - [x] Constantes
 
 ## Tipos de dados
-- [x] Strings (texto): "" ''  
-- [x] Numbers: 2 1.4  
-- [x] Boolean  
 
-# Operadores
+- [x] Strings (texto): "" ''
+- [x] Numbers: 2 1.4
+- [x] Boolean
+
+## Operadores
+
 - [x] Operadores de atribuição de valor: =
 - [x] Operador de contatenação de strings: +
 - [x] Operadores de comparação: == != > < >= <=
+- [x] spread operator [...]
 
 ## Estrutura de dados
 
-### Arrays:
+### Arrays
 
 - [x] Uma lista que contém qualquer tipo de dado
-- [x] Métodos de array: push, find, forEach
+- [x] Métodos de array: push, [find, forEach, filter] : HOF (Higher Order Functions)
 
-### Objetos:
-- [x] Atributos e métodos  
-- [x] Criação e manipulação de objetos  
-- [x] Acesso a propriedades de objetos  
+### Objetos
+
+- [x] Atributos e métodos
+- [x] Criação e manipulação de objetos
+- [x] Acesso a propriedades de objetos
 
 ### Functions
+
 - [x] Criar
 - [x] Executar
 - [x] Arrow Function / Named Function
 
-# Estrutura de repetição
+## Estrutura de repetição
+
 - [x] while
 
-# Condicionais
+## Condicionais
+
 - [x] switch
 - [x] if/else
 
 ## Módulos em NOde.js
+
 - [x] Importação de módulos (inquirer, CommonJS)
 - [x] Biblioteca 'inquirer' para criar prompts interativos
 
 ## Programação assíncrona e promises
+
 - [x] Uso de funções assíncronas (async/await)
