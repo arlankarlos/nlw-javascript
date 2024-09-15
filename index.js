@@ -1,5 +1,4 @@
 const { select, input, checkbox } = require('@inquirer/prompts')
-const fs = require("fs").promises
 
 let meta = {
 	value: "Tomar 3L água diariamente",
@@ -21,28 +20,23 @@ const cadastrarMeta = async () => {
 	)
 }
 
-
-const listarMetas = async () =>{
-	if(metas.length == 0){
-		console.log('Nenhuma meta selecionada')
-		return
-	}
+const listarMetas = async () => {
 	const respostas = await checkbox({
 		message: "Use as setas para mudar de meta, o espaço para marcar ou desmarcar e o Enter para finalizar essa etapa",
 		choices: [...metas],
 		instructions: false,
 	})
 
-	if(respostas.length == 0){
-		console.log('Nenhuma meta selecionada')
-		return
-	}
-
 	metas.forEach((metaTemp) => {
 		metaTemp.checked = false
 	})
 
-	respostas.forEach((resposta)=> {
+	if(respostas.length == 0) {
+		console.log('Nenhuma meta selecionada')
+		return
+	}
+
+	respostas.forEach((resposta) => {
 		const meta = metas.find((metaTemp) => {
 			return metaTemp.value == resposta
 		})
@@ -71,10 +65,11 @@ const metasRealizadas = async () =>{
 
 const start = async () => {
 
-    while (true) {
+    while(true){
 
 		const opcao = await select(
-			{message: "Menu >",
+			{
+				message: "Menu >",
 				choices: [
 					{
 						name: 'Cadastrar Metas',
@@ -90,7 +85,10 @@ const start = async () => {
 					},
 					{
 						name: 'Sair',
-						value:'sair'}]})
+						value:'sair'
+					}
+					]
+				})
 
 		switch (opcao) {
 			case 'cadastrar':
@@ -98,16 +96,16 @@ const start = async () => {
 				console.log(metas)
 				break
 			case "listar":
-				listarMetas()
+				await listarMetas()
 				break
 			case 'realizadas':
 				await metasRealizadas()
 				break
 			case "sair":
-				console.log('sau')
+				console.log('Encerrado programa.')
 				return
 		}
-}
+	}
 }
 
 // start
